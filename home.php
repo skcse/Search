@@ -17,13 +17,14 @@ h1.headd{
 	background-color: black;
 }
 
-h1.center{
+h3.center{
 	color :red;
 	font-family: sans-serif;
 	text-align: center;
 }
-h3{
-	text-align: center
+h1{
+	text-align: center;
+	color: blue;
 }
 body{
 	background-image: url("image5.jpg");
@@ -33,19 +34,20 @@ body{
 }
 </style>
 <body>
-<div>
 <h1 class="headd">
-Welcome!!      IIT Indore Community!</h1>
+<div>
+Welcome!!      IIT Indore Community!
 </div>
+</h1>
 
-<h3> SEARCH HERE
+<h1> SEARCH HERE
 <form>
 <input type="text" name="search1">
-</form></h3>
-<h1 class="center">
-For Facebook</h1>
+</form></h1>
 <h3 class="center">
-<a href="fb.com">CLICK HERE</a>
+For Facebook</h3>
+<h3 class="center">
+<a href="https://www.fb.com">CLICK HERE</a>
 </h2>
 
 </body>
